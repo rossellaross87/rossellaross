@@ -1,0 +1,84 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: #D1D7FF;
+	font-size: 20px;
+	font-family: verdana;
+}
+form {
+	margin: 0 auto;
+	width: 400px;
+}
+form#cronologia {
+	margin: 0 auto;
+	width: 800px;
+}
+form#cronologia fieldset{
+	width: 800px;
+}
+fieldset {
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	width: 400px;
+	margin: 0 auto;
+	clear: both;
+}
+legend {
+	color: darkseagreen;
+}
+input, label {
+	float: left;
+}
+input {
+	height: 30px;
+	margin-top: 5px;
+}
+.field, .button {
+	clear: both;
+}
+.field {
+	width: inherit;
+}
+.field input, .field select{
+	clear: both;
+	padding-left: 5px;
+	border-radius: 10px;
+	background-color: white !important;
+	font-size: 20px;
+	width: inherit;
+}
+.field input:focus{
+	background-color: yellow !important;
+}
+.button input{
+	border-radius: 20px;
+	width: 100px;
+	background-color: #1C35FF;
+	color: white;
+	float: right;
+	cursor: pointer;
+	margin-left: 5px;
+}
+input[type="radio"] {
+	width: 100px;
+}
+span.radio-label {
+	float: left;
+}
+label {
+	color: darkorange;
+	margin-top: 10px;
+	clear: both;
+}
+label.title{
+	font-size: 30px;
+}
+fieldset a, fieldset textarea {
+	float: left;
+	clear: both;
+}
+fieldset#lista-utenti{
+	width: 600px;
+}
+fieldset#lista-utenti form{
+	width: 100px;
+}
